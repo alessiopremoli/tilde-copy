@@ -12,12 +12,25 @@ html, body {
 
 main {
     background-color: #333333;
-    height: 100vh;
+    height: calc(100vh - 2rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+footer {
+    background-color: #333333;
+    font-size: 12px;
+    text-align: right;
+    height: 2rem;
+    color: #8c8c8c;
+    padding: 0 1rem
+}
+
+footer a, footer a:visited {
+    color: #8c8c8c
 }
 
 .big-tilde {
